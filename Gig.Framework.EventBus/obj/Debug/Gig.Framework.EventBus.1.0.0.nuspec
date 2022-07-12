@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gig.Framework.EventBus</id>
+    <version>1.0.0</version>
+    <authors>Gig.Framework.EventBus</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="MassTransit" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.AspNetCore" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.RabbitMQ" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\bin\Debug\netstandard2.1\Gig.Framework.EventBus.dll" target="lib\netstandard2.1\Gig.Framework.EventBus.dll" />
+  </files>
+</package>

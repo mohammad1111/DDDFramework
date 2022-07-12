@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Apllication.ReadModel\Gig.Framework.Application.ReadModel.csproj"/>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj"/>
+        <ProjectReference Include="..\Gig.Sample.Read.ReadModels.Contracts\Gig.Sample.Read.ReadModels.Contracts.csproj"/>
+        <ProjectReference Include="..\Gig.Sample.Read.ReadModels\Gig.Sample.Read.ReadModels.csproj"/>
+    </ItemGroup>
+
+</Project>

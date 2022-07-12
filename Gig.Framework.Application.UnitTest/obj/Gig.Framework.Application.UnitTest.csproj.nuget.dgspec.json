@@ -1,0 +1,1238 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application.UnitTest\\Gig.Framework.Application.UnitTest.csproj": {}
+  },
+  "projects": {
+    "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj",
+        "projectName": "Gig.Framework.DependencyInjection.Windsor",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Castle.Windsor": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "projectName": "Gig.Framework.Application.ReadModel",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application.UnitTest\\Gig.Framework.Application.UnitTest.csproj": {
+      "version": "2.5.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application.UnitTest\\Gig.Framework.Application.UnitTest.csproj",
+        "projectName": "Gig.Framework.Application.UnitTest",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application.UnitTest\\Gig.Framework.Application.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Castle.Windsor": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "projectName": "Gig.Framework.Application",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj",
+        "projectName": "Gig.Framework.Bus",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Castle.Windsor.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "MassTransit.CastleWindsor": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
+            "MassTransit.Redis": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj",
+        "projectName": "Gig.Framework.Caching",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CacheManager.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.StackExchange.Redis": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj",
+        "projectName": "Gig.Framework.Config",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "projectName": "Gig.Framework.Core",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Castle.Windsor.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj",
+        "projectName": "Gig.Framework.Data.Elastic",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "projectName": "Gig.Framework.Domain",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj",
+        "projectName": "Gig.Framework.Persistence.Ef",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "projectName": "Gig.Framework.ReadModel",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj",
+        "projectName": "Gig.Framework.RuleEngine",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NRules": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            },
+            "NRules.RuleModel": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+      "version": "2.6.60.27",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "projectName": "Gig.Framework.Scheduling",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

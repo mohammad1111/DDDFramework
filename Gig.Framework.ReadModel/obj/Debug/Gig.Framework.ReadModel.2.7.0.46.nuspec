@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gig.Framework.ReadModel</id>
+    <version>2.7.0.46</version>
+    <authors>Gig.Framework.ReadModel</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Gig.Framework.Core" version="2.7.0.46" exclude="Build,Analyzers" />
+        <dependency id="DevExtreme.AspNet.Data" version="2.8.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\Gig.Framework.ReadModel\bin\Debug\net6.0\Gig.Framework.ReadModel.dll" target="lib\net6.0\Gig.Framework.ReadModel.dll" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Product\Exceptions\"/>
+        <Folder Include="User\Exceptions\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Domain\Gig.Framework.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>

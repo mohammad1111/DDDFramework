@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Gig.Framework.Persistence.Marten</AssemblyName>
+        <RootNamespace>Gig.Framework.Persistence.Marten</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Marten" Version="4.3.1" />
+    </ItemGroup>
+
+</Project>

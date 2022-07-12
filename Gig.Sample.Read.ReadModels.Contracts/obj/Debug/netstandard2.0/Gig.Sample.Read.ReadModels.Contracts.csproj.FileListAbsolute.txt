@@ -1,0 +1,16 @@
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.Application.ReadModel.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.ReadModel.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.Application.ReadModel.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\bin\Debug\netstandard2.0\Gig.Framework.ReadModel.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels.Contracts\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.Contracts.csprojAssemblyReference.cache

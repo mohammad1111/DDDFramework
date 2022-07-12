@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HYY7Ic7LxOfYaNx62LszTevoahITNVw132HHV8j5V8SMEc2nCgQTlBbzqbL7chz5aiGtZ8APO/P5ON2FJxS/6Q==",
+  "success": true,
+  "projectFilePath": "E:\\Sl\\Framework\\Gig.Framework\\NRules\\NRules.Fluent\\NRules.Fluent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\nrules.rulemodel\\1.0.0\\nrules.rulemodel.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Logging\\Gig.Framework.Logging.csproj": {}
+  },
+  "projects": {
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+      "version": "2.6.60.20",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "projectName": "Gig.Framework.Core",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Castle.Windsor.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Logging\\Gig.Framework.Logging.csproj": {
+      "version": "2.6.60.20",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Logging\\Gig.Framework.Logging.csproj",
+        "projectName": "Gig.Framework.Logging",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Logging\\Gig.Framework.Logging.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

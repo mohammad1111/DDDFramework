@@ -1,0 +1,18 @@
+{
+  "DataProvider": "sqlserver",
+  "ReadDataConnectionString": "Password=gDev*200;Persist Security Info=True;User ID=Develop;Initial Catalog=FrameWork2Test;Data Source=172.31.1.200;MultipleActiveResultSets=True;",
+  "WriteDataConnectionString": "Password=gDev*200;Persist Security Info=True;User ID=Develop;Initial Catalog=FrameWork2Test;Data Source=172.31.1.200;MultipleActiveResultSets=True;",
+  "DataCollation": "SQL_Latin1_General_CP1256_CI_AS",
+  "RawDataSettings": {},
+  "ElasticUrl": "http://Localhost:9200",
+  "RedisConnection": "172.31.0.154",
+  "RedisPort": "6379",
+  "RedisPassword": "",
+  "InventoryUri": "http://172.31.0.156:3310/api/External/",
+  "MicroServiceName": "ManagementSl",
+  "TokenKey": "386B17FD36C9176795BF91ABEEC45",
+  "TokenIssuer": "Any",
+  "TokenAudience": "Any",
+  "TokenExpirationMinutes": "200000",
+
+}

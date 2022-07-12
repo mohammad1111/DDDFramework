@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gig.Framework.RuleEngine.Contract</id>
+    <version>2.7.0.25</version>
+    <authors>Gig.Framework.RuleEngine.Contract</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Gig.Framework.Core" version="2.7.0.25" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\net6.0\Gig.Framework.RuleEngine.Contract.dll" target="lib\net6.0\Gig.Framework.RuleEngine.Contract.dll" />
+  </files>
+</package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SpecFlow.CastleWindsor</id>
+    <version>2.0.0</version>
+    <authors>SpecFlow.CastleWindsor</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Castle.Windsor" version="5.1.1" exclude="Build,Analyzers" />
+        <dependency id="SpecFlow.CustomPlugin" version="3.6.23" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\bin\Debug\netstandard2.1\SpecFlow.CastleWindsor.dll" target="lib\netstandard2.1\SpecFlow.CastleWindsor.dll" />
+  </files>
+</package>

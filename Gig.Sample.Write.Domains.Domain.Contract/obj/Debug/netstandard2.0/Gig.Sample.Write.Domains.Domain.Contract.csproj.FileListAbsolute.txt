@@ -1,0 +1,12 @@
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\bin\Debug\netstandard2.0\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\bin\Debug\netstandard2.0\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Contract\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Contract.csprojAssemblyReference.cache

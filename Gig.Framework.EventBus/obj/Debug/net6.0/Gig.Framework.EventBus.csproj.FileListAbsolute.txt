@@ -1,0 +1,12 @@
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\bin\Debug\net6.0\Gig.Framework.EventBus.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\bin\Debug\net6.0\Gig.Framework.EventBus.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\bin\Debug\net6.0\ref\Gig.Framework.EventBus.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\bin\Debug\net6.0\Gig.Framework.EventBus.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.csproj.AssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\ref\Gig.Framework.EventBus.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.EventBus\obj\Debug\net6.0\Gig.Framework.EventBus.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gig.Framework.Caching</id>
+    <version>2.7.0.36</version>
+    <authors>Gig.Framework.Caching</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Gig.Framework.Core" version="2.7.0.36" exclude="Build,Analyzers" />
+        <dependency id="CacheManager.Core" version="2.0.0-beta-1629" exclude="Build,Analyzers" />
+        <dependency id="CacheManager.Microsoft.Extensions.Configuration" version="2.0.0-beta-1629" exclude="Build,Analyzers" />
+        <dependency id="CacheManager.Serialization.Json" version="2.0.0-beta-1629" exclude="Build,Analyzers" />
+        <dependency id="CacheManager.StackExchange.Redis" version="2.0.0-beta-1629" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\Gig.Framework.Caching\bin\Debug\net6.0\Gig.Framework.Caching.dll" target="lib\net6.0\Gig.Framework.Caching.dll" />
+  </files>
+</package>

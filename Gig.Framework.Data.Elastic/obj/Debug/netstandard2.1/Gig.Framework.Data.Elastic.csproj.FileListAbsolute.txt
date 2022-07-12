@@ -1,0 +1,16 @@
+\\172.31.0.156\Nugets\Packages\netstandard2.1\Gig.Framework.Data.Elastic.deps.json
+\\172.31.0.156\Nugets\Packages\netstandard2.1\Gig.Framework.Data.Elastic.dll
+\\172.31.0.156\Nugets\Packages\netstandard2.1\Gig.Framework.Data.Elastic.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\bin\Debug\netstandard2.1\Gig.Framework.Data.Elastic.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\bin\Debug\netstandard2.1\Gig.Framework.Data.Elastic.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\bin\Debug\netstandard2.1\Gig.Framework.Data.Elastic.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\bin\Debug\netstandard2.1\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\bin\Debug\netstandard2.1\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.csproj.AssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.Data.Elastic\obj\Debug\netstandard2.1\Gig.Framework.Data.Elastic.pdb

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DevExtreme.AspNet.Data" Version="2.8.6" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+        <ProjectReference Include="..\Gig.Framework.ReadModel\Gig.Framework.ReadModel.csproj" />
+    </ItemGroup>
+
+</Project>

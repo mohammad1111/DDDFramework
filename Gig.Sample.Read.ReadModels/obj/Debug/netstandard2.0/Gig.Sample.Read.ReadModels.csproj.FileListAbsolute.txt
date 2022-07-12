@@ -1,0 +1,14 @@
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Framework.ReadModel.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\bin\Debug\netstandard2.0\Gig.Framework.ReadModel.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Read.ReadModels\obj\Debug\netstandard2.0\Gig.Sample.Read.ReadModels.csprojAssemblyReference.cache

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gig.Framework.Persistence.Ef</id>
+    <version>1.0.21</version>
+    <authors>Gig.Framework.Persistence.Ef</authors>
+    <owners>Gig.Framework.Persistence.Ef</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Gig.Framework.Core" version="1.0.20" exclude="Build,Analyzers" />
+        <dependency id="Gig.Framework.Domain" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Proxies" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Sl\Framework\Gig.Framework\Gig.Framework.Persistence.Ef\bin\Debug\netstandard2.0\Gig.Framework.Persistence.Ef.dll" target="lib\netstandard2.0\Gig.Framework.Persistence.Ef.dll" />
+  </files>
+</package>

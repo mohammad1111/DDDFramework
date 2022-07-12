@@ -1,0 +1,13 @@
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\bin\Debug\netstandard2.1\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\bin\Debug\netstandard2.1\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.csproj.AssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Autofac\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Autofac.pdb

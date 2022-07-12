@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Quartz" Version="3.2.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+    </ItemGroup>
+
+</Project>

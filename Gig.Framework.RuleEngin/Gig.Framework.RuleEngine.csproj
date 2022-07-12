@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Nito.AsyncEx" Version="5.1.0" />
+        <PackageReference Include="NRules" Version="0.9.2" />
+        <PackageReference Include="NRules.RuleModel" Version="0.9.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+        <ProjectReference Include="..\Gig.Framework.RuleEngine.Contract\Gig.Framework.RuleEngine.Contract.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Scheduling\Gig.Framework.Scheduling.csproj" />
+    </ItemGroup>
+
+</Project>

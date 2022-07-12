@@ -1,0 +1,13 @@
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\netstandard2.1\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\bin\Debug\netstandard2.1\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.csproj.AssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.RuleEngine.Contract\obj\Debug\netstandard2.1\Gig.Framework.RuleEngine.Contract.pdb

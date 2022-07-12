@@ -1,0 +1,6 @@
+D:\Framework2GAC\netstandard2.1\Gig.Framework.Logging.deps.json
+D:\Framework2GAC\netstandard2.1\Gig.Framework.Logging.dll
+D:\Framework2GAC\netstandard2.1\Gig.Framework.Logging.pdb
+\\172.31.0.156\Packages\V2\netstandard2.1\Gig.Framework.Logging.deps.json
+\\172.31.0.156\Packages\V2\netstandard2.1\Gig.Framework.Logging.dll
+\\172.31.0.156\Packages\V2\netstandard2.1\Gig.Framework.Logging.pdb

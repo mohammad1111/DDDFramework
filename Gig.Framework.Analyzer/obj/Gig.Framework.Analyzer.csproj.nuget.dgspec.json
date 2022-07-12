@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {}
+  },
+  "projects": {
+    "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {
+      "version": "2.7.0.94",
+      "restore": {
+        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
+        "projectName": "Gig.Framework.Analyzer",
+        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

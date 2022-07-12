@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,2737 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.UI\\Gig.Sample.UI.csproj": {}
+  },
+  "projects": {
+    "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj",
+        "projectName": "Gig.Framework.DependencyInjection.Windsor",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Castle.Windsor.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\Gig.Framework.Api.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\Gig.Framework.Api.csproj",
+        "projectName": "Gig.Framework.Api",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\Gig.Framework.Api.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.8.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.DynamicLinq": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "projectName": "Gig.Framework.Application.ReadModel",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.8.6, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "projectName": "Gig.Framework.Application",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.3.0-develop.317, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj",
+        "projectName": "Gig.Framework.Bus",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.0-develop.317, )"
+            },
+            "MassTransit.Redis": {
+              "target": "Package",
+              "version": "[7.3.0-develop.317, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj",
+        "projectName": "Gig.Framework.Caching",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CacheManager.Core": {
+              "target": "Package",
+              "version": "[2.0.0-beta-1629, )"
+            },
+            "CacheManager.Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.0.0-beta-1629, )"
+            },
+            "CacheManager.Serialization.Json": {
+              "target": "Package",
+              "version": "[2.0.0-beta-1629, )"
+            },
+            "CacheManager.StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.0-beta-1629, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj",
+        "projectName": "Gig.Framework.Config",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework.DependencyInjection.Windsor\\Gig.Framework.DependencyInjection.Windsor.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Bus\\Gig.Framework.Bus.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Caching\\Gig.Framework.Caching.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\Gig.Framework.DependencyInjection.Autofac.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\Gig.Framework.DependencyInjection.Autofac.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\Gig.Framework.Workflow.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\Gig.Framework.Workflow.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "projectName": "Gig.Framework.Core",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj",
+        "projectName": "Gig.Framework.Data.Elastic",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\Gig.Framework.Data.Elastic.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Data.Elastic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\Gig.Framework.DependencyInjection.Autofac.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\Gig.Framework.DependencyInjection.Autofac.csproj",
+        "projectName": "Gig.Framework.DependencyInjection.Autofac",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\Gig.Framework.DependencyInjection.Autofac.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.DependencyInjection.Autofac\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "projectName": "Gig.Framework.Domain",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\Gig.Framework.EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\Gig.Framework.EventBus.csproj",
+        "projectName": "Gig.Framework.EventBus",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\Gig.Framework.EventBus.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
+        "projectName": "Gig.Framework.Facade",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj",
+        "projectName": "Gig.Framework.Persistence.Ef",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "projectName": "Gig.Framework.ReadModel",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.8.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
+        "projectName": "Gig.Framework.RuleEngine.Contract",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj",
+        "projectName": "Gig.Framework.RuleEngine",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\Gig.Framework.RuleEngine.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NRules": {
+              "target": "Package",
+              "version": "[0.9.2, )"
+            },
+            "NRules.RuleModel": {
+              "target": "Package",
+              "version": "[0.9.2, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "projectName": "Gig.Framework.Scheduling",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\Gig.Framework.Workflow.Contract.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\Gig.Framework.Workflow.Contract.csproj",
+        "projectName": "Gig.Framework.Workflow.Contract",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\Gig.Framework.Workflow.Contract.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\Gig.Framework.Workflow.csproj": {
+      "version": "2.6.63.15",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\Gig.Framework.Workflow.csproj",
+        "projectName": "Gig.Framework.Workflow",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\Gig.Framework.Workflow.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\Gig.Framework.Workflow.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Workflow.Contract\\Gig.Framework.Workflow.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NewId": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\Gig.Sample.Config.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\Gig.Sample.Config.csproj",
+        "projectName": "Gig.Sample.Config",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\Gig.Sample.Config.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj",
+        "projectName": "Gig.Sample.Read.Facade.Contract",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\Gig.Sample.Read.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\Gig.Sample.Read.Facade.csproj",
+        "projectName": "Gig.Sample.Read.Facade",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\Gig.Sample.Read.Facade.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj",
+        "projectName": "Gig.Sample.Read.ReadModels.Contracts",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\Gig.Sample.Read.ReadModels.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\Gig.Sample.Read.ReadModels.Services.csproj",
+        "projectName": "Gig.Sample.Read.ReadModels.Services",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\Gig.Sample.Read.ReadModels.Services.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj",
+        "projectName": "Gig.Sample.Read.ReadModels",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\Gig.Sample.Read.ReadModels.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\Gig.Sample.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\Gig.Sample.Shared.csproj",
+        "projectName": "Gig.Sample.Shared",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\Gig.Sample.Shared.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.UI\\Gig.Sample.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.UI\\Gig.Sample.UI.csproj",
+        "projectName": "Gig.Sample.UI",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.UI\\Gig.Sample.UI.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.155\\NugetServerInternal": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\Gig.Framework.Api.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Api\\Gig.Framework.Api.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Config\\Gig.Framework.Config.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\Gig.Framework.EventBus.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.EventBus\\Gig.Framework.EventBus.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\Gig.Sample.Config.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Config\\Gig.Sample.Config.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade.Contract\\Gig.Sample.Read.Facade.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\Gig.Sample.Read.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.Facade\\Gig.Sample.Read.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\Gig.Sample.Read.ReadModels.Services.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Services\\Gig.Sample.Read.ReadModels.Services.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\Gig.Sample.Shared.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Shared\\Gig.Sample.Shared.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\Gig.Sample.Write.Applications.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\Gig.Sample.Write.Applications.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\Gig.Sample.Write.Facades.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\Gig.Sample.Write.Facades.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dynamitey": {
+              "target": "Package",
+              "version": "[2.0.10.189, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj",
+        "projectName": "Gig.Sample.Write.Applications.Application.Contracts",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\Gig.Sample.Write.Applications.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\Gig.Sample.Write.Applications.Application.csproj",
+        "projectName": "Gig.Sample.Write.Applications.Application",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\Gig.Sample.Write.Applications.Application.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj",
+        "projectName": "Gig.Sample.Write.Domains.Domain.Contract",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj",
+        "projectName": "Gig.Sample.Write.Domains.Domain",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj",
+        "projectName": "Gig.Sample.Write.Facades.Facade.Contract",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Read.ReadModels.Contracts\\Gig.Sample.Read.ReadModels.Contracts.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Applications.Application.Contracts\\Gig.Sample.Write.Applications.Application.Contracts.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\Gig.Sample.Write.Facades.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\Gig.Sample.Write.Facades.Facade.csproj",
+        "projectName": "Gig.Sample.Write.Facades.Facade",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\Gig.Sample.Write.Facades.Facade.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain.Contract\\Gig.Sample.Write.Domains.Domain.Contract.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Facades.Facade.Contract\\Gig.Sample.Write.Facades.Facade.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj",
+        "projectName": "Gig.Sample.Write.Infrastructures.Persistence",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\Gig.Sample.Write.Infrastructures.Persistence.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Infrastructures.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\172.31.0.156\\Nugets\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Framework.Persistence.Ef\\Gig.Framework.Persistence.Ef.csproj"
+              },
+              "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj": {
+                "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\Gig.Sample.Write.Domains.Domain\\Gig.Sample.Write.Domains.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

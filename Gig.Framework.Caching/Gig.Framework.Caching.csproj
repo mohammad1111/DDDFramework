@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CacheManager.Core" Version="2.0.0-beta-1629" />
+        <PackageReference Include="CacheManager.Microsoft.Extensions.Configuration" Version="2.0.0-beta-1629" />
+        <PackageReference Include="CacheManager.Serialization.Json" Version="2.0.0-beta-1629" />
+        <PackageReference Include="CacheManager.StackExchange.Redis" Version="2.0.0-beta-1629" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Framework.Domain.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\bin\Debug\netstandard2.0\Gig.Framework.Domain.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.csprojAssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.dll
+E:\Sl\Framework\Gig.Framework\Gig.Sample.Write.Domains.Domain.Service\obj\Debug\netstandard2.0\Gig.Sample.Write.Domains.Domain.Service.pdb

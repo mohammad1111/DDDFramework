@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Apllication.ReadModel\Gig.Framework.Application.ReadModel.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Application\Gig.Framework.Application.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Workflow.Contract\Gig.Framework.Workflow.Contract.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NewId" Version="3.0.3" />
+    </ItemGroup>
+
+</Project>

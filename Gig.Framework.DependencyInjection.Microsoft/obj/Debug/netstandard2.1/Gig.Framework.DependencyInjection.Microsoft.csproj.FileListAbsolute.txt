@@ -1,0 +1,12 @@
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.deps.json
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\bin\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\bin\Debug\netstandard2.1\Gig.Framework.Core.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\bin\Debug\netstandard2.1\Gig.Framework.Core.pdb
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.csproj.AssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.csproj.CopyComplete
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.dll
+E:\Sl\Framework\Gig.Framework\Gig.Framework.DependencyInjection.Microsoft\obj\Debug\netstandard2.1\Gig.Framework.DependencyInjection.Microsoft.pdb

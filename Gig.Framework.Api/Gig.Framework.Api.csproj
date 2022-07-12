@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.0.1</Version>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <LangVersion>latest</LangVersion>
+        <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DevExtreme.AspNet.Data" Version="2.8.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="6.2.14" />
+        <PackageReference Include="Ocelot" Version="16.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Core\Gig.Framework.Core.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Data.Elastic\Gig.Framework.Data.Elastic.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Facade\Gig.Framework.Facade.csproj" />
+        <ProjectReference Include="..\Gig.Framework.Persistence.Ef\Gig.Framework.Persistence.Ef.csproj" />
+        <ProjectReference Include="..\Gig.Framework.ReadModel\Gig.Framework.ReadModel.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Extensions" />
+      <Folder Include="Helpers\Cors" />
+    </ItemGroup>
+
+</Project>

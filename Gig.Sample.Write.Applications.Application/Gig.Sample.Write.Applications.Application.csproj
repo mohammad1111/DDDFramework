@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Application\Gig.Framework.Application.csproj"/>
+        <ProjectReference Include="..\Gig.Sample.Write.Applications.Application.Contracts\Gig.Sample.Write.Applications.Application.Contracts.csproj"/>
+    </ItemGroup>
+
+</Project>

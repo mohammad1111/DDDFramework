@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Framework.Application\Gig.Framework.Application.csproj"/>
+        <ProjectReference Include="..\Gig.Sample.Write.Domains.Domain.Contract\Gig.Sample.Write.Domains.Domain.Contract.csproj"/>
+        <ProjectReference Include="..\Gig.Sample.Write.Domains.Domain\Gig.Sample.Write.Domains.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>

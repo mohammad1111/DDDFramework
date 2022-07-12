@@ -1,0 +1,9 @@
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\bin\Debug\netstandard2.1\SpecFlow.CastleWindsor.deps.json
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\bin\Debug\netstandard2.1\SpecFlow.CastleWindsor.dll
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\bin\Debug\netstandard2.1\SpecFlow.CastleWindsor.pdb
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.csprojAssemblyReference.cache
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.AssemblyInfoInputs.cache
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.AssemblyInfo.cs
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.csproj.CoreCompileInputs.cache
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.dll
+E:\Sl\Framework\Gig.Framework\SpecFlow.CastleWindsor\obj\Debug\netstandard2.1\SpecFlow.CastleWindsor.pdb

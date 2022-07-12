@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gig.Sample.Write.Domains.Domain\Gig.Sample.Write.Domains.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>

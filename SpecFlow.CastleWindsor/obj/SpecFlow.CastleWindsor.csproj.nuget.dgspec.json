@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sl\\Framework\\Gig.Framework\\SpecFlow.CastleWindsor\\SpecFlow.CastleWindsor.csproj": {}
+  },
+  "projects": {
+    "E:\\Sl\\Framework\\Gig.Framework\\SpecFlow.CastleWindsor\\SpecFlow.CastleWindsor.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sl\\Framework\\Gig.Framework\\SpecFlow.CastleWindsor\\SpecFlow.CastleWindsor.csproj",
+        "projectName": "SpecFlow.CastleWindsor",
+        "projectPath": "E:\\Sl\\Framework\\Gig.Framework\\SpecFlow.CastleWindsor\\SpecFlow.CastleWindsor.csproj",
+        "packagesPath": "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\",
+        "outputPath": "E:\\Sl\\Framework\\Gig.Framework\\SpecFlow.CastleWindsor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bikdeli.mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bikdeli.mohammad\\.nuget\\packages\\ironpython\\2.7.9": {},
+          "F:\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Stimulsoft.Reports.Ultimate-Designer.2020.2.3\\Crack\\Libs\\Reports.NetCore": {},
+          "\\\\172.31.0.155\\NugetServerService": {},
+          "\\\\WPAPNG-DEV\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/windsor-qkry8n2r6yak": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Castle.Windsor": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "SpecFlow.CustomPlugin": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
