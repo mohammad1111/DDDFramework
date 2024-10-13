@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="DevExtreme.AspNet.Data" Version="2.8.6" />
+        <PackageReference Include="DevExtreme.AspNet.Data" Version="4.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="6.2.14" />
         <PackageReference Include="Ocelot" Version="16.0.1" />

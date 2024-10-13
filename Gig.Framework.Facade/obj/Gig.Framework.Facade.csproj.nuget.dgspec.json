@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {}
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {}
   },
   "projects": {
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
         "projectName": "Gig.Framework.Application.ReadModel",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               },
-              "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj"
               }
             }
           }
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
         "projectName": "Gig.Framework.Application",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -95,17 +101,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               },
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj"
               },
-              "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj"
               },
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj"
               }
             }
           }
@@ -114,6 +120,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -122,11 +133,11 @@
           "dependencies": {
             "MassTransit": {
               "target": "Package",
-              "version": "[7.3.0, )"
+              "version": "[8.2.5, )"
             },
             "Quartz": {
               "target": "Package",
-              "version": "[3.2.4, )"
+              "version": "[3.13.0, )"
             }
           },
           "imports": [
@@ -135,7 +146,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,21 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
         "projectName": "Gig.Framework.Core",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -176,6 +188,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -184,23 +201,23 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[13.0.1, )"
             },
             "Autofac": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[8.1.1, )"
             },
             "NEST": {
               "target": "Package",
-              "version": "[7.12.1, )"
+              "version": "[7.17.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "Nito.AsyncEx": {
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[5.1.2, )"
             },
             "Serilog": {
               "target": "Package",
@@ -212,7 +229,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.15.0, )"
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
@@ -221,7 +238,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -230,21 +248,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
         "projectName": "Gig.Framework.Domain",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Domain\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\Gig.Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -256,8 +274,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               }
             }
           }
@@ -266,6 +284,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -287,7 +310,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -296,21 +320,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
         "projectName": "Gig.Framework.Facade",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Facade\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Facade\\Gig.Framework.Facade.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Facade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -322,11 +346,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Apllication.ReadModel\\Gig.Framework.Application.ReadModel.csproj"
               },
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Application\\Gig.Framework.Application.csproj"
               }
             }
           }
@@ -335,6 +359,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -346,7 +375,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -355,21 +385,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
         "projectName": "Gig.Framework.ReadModel",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.ReadModel\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\Gig.Framework.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.ReadModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -381,8 +411,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               }
             }
           }
@@ -391,6 +421,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -416,7 +451,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -425,21 +461,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
         "projectName": "Gig.Framework.RuleEngine.Contract",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\Gig.Framework.RuleEngine.Contract.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.RuleEngine.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -451,8 +487,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               }
             }
           }
@@ -461,6 +497,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -472,7 +513,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -481,21 +523,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
         "projectName": "Gig.Framework.Scheduling",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Scheduling\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\Gig.Framework.Scheduling.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Scheduling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -507,8 +549,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
-                "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
+              "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj": {
+                "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Core\\Gig.Framework.Core.csproj"
               }
             }
           }
@@ -517,6 +559,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -534,7 +581,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -543,7 +591,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

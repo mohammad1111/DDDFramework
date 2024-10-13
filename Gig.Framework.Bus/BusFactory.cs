@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using Automatonymous;
+using MassTransit;
 
 namespace Gig.Framework.Bus;
 

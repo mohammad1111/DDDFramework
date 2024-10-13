@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {}
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {}
   },
   "projects": {
-    "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {
-      "version": "2.7.0.94",
+    "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
         "projectName": "Gig.Framework.Analyzer",
-        "projectPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Gits\\DDDFramework\\Gig.Framework.Analyzer\\obj\\",
+        "projectPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Analyzer\\Gig.Framework.Analyzer.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammad\\RiderProjects\\DDDFramework\\Gig.Framework.Analyzer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

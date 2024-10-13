@@ -1,4 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AActivity_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F2744e88e3a5a5c764cbc0a6c0b061e4f5d5d4d8a27dd78a34919af6ec881e1a_003FActivity_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ABehaviorContext_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F764e8a64044fe9c686fb0b6cff94bde645da4e62585c679b53ab98a17182f5_003FBehaviorContext_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	
 	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=2f9bb063_002Dc4eb_002D4e73_002Dacd1_002Dc8c05cef5d59_0023Gig_002EFramework_002EApplication_002EUnitTest/@EntryIndexedValue">True</s:Boolean>

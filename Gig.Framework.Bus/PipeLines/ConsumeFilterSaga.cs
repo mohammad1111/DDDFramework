@@ -3,10 +3,8 @@ using Gig.Framework.Core.Caching;
 using Gig.Framework.Core.Events;
 using Gig.Framework.Core.Exceptions;
 using Gig.Framework.Core.UserContexts;
-using GreenPipes;
 using MassTransit;
-using MassTransit.Internals.Extensions;
-using MassTransit.Saga;
+using MassTransit.Internals;
 using Serilog;
 
 namespace Gig.Framework.Bus.PipeLines;

@@ -10,9 +10,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.0" />
-        <PackageReference Include="MassTransit.Redis" Version="7.3.0" />
-        <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.5" />
+        <PackageReference Include="MassTransit.Redis" Version="8.2.5" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     </ItemGroup>
 
     <ItemGroup>

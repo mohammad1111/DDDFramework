@@ -10,8 +10,8 @@ public class GigMapper : IMapper
     {
         var config = new MapperConfiguration(cfg =>
         {
-            cfg.CreateMissingTypeMaps = true;
-            cfg.ValidateInlineMaps = false;
+            //cfg.CreateMissingTypeMaps = true;
+            //cfg.ValidateInlineMaps = false;
             // other configurations
         });
         _mapper = config.CreateMapper();

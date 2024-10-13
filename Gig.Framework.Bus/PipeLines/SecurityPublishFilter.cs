@@ -1,6 +1,5 @@
 ﻿using Gig.Framework.Core.Events;
 using Gig.Framework.Core.Helper;
-using GreenPipes;
 using MassTransit;
 
 namespace Gig.Framework.Bus.PipeLines;

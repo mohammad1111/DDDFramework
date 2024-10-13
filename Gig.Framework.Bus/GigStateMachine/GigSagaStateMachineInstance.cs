@@ -1,6 +1,7 @@
 ﻿using Automatonymous;
 using Gig.Framework.Core;
 using Gig.Framework.Core.Events;
+using MassTransit;
 using MassTransit.Saga;
 
 namespace Gig.Framework.Bus.GigStateMachine;

@@ -1,7 +1,4 @@
 ﻿using MassTransit;
-using MassTransit.Courier;
-using MassTransit.Definition;
-using MassTransit.Saga;
 
 namespace Gig.Framework.Bus.EndpointNameFormatterExtensions;
 
@@ -60,4 +57,6 @@ public class CustomEndpointNameFormatter :
     {
         return _formatter.SanitizeName(name);
     }
+
+    public string Separator { get; }
 }

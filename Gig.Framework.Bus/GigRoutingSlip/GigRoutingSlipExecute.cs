@@ -1,4 +1,5 @@
 ﻿using Gig.Framework.Core.Events;
+using MassTransit;
 using MassTransit.Courier;
 
 namespace Gig.Framework.Bus.GigRoutingSlip;

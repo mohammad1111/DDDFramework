@@ -3,7 +3,7 @@ using Gig.Framework.Core.Caching;
 using Gig.Framework.Core.Events;
 using Gig.Framework.Core.Security;
 using Gig.Framework.Core.UserContexts;
-using MassTransit.Scoping;
+using MassTransit.DependencyInjection;
 using Serilog;
 
 namespace Gig.Framework.Bus;
@@ -12,7 +12,7 @@ public class HandleMessageDependencies : IHandleMessageDependencies
 {
     public HandleMessageDependencies(IRequestMemoryCacheManager cacheManager, IEventRepository eventRepository,
         IUserContextService userContextService, IDistributeCacheManager distributeCacheManager, ILogger logger,
-        ISecurityManager securityManager, IConsumerScopeProvider scopeProvider, IRequestContext requestContext)
+        ISecurityManager securityManager, IConsumeScopeProvider scopeProvider, IRequestContext requestContext)
     {
         CacheManager = cacheManager;
         EventRepository = eventRepository;
@@ -24,7 +24,7 @@ public class HandleMessageDependencies : IHandleMessageDependencies
         RequestContext = requestContext;
     }
 
-    public IConsumerScopeProvider ScopeProvider { get; }
+    public IConsumeScopeProvider ScopeProvider { get; }
 
     public IDistributeCacheManager DistributeCacheManager { get; }
 
