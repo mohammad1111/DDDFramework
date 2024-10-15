@@ -6,6 +6,8 @@
         <FileVersion>1.0.0.1</FileVersion>
 
         <LangVersion>latest</LangVersion>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
