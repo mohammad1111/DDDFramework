@@ -1,3 +1,4 @@
+using System;
 using Gig.Framework.Core.Logging;
 
 namespace Gig.Framework.Data.Elastic;

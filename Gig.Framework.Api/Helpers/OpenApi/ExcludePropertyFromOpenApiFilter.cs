@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Reflection;
 using Gig.Framework.Core.Exceptions;
 using Microsoft.OpenApi.Models;

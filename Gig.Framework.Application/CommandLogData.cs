@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.Logging;
+﻿using System;
+using Gig.Framework.Core.Logging;
 using Gig.Framework.Core.Serilizer;
 
 namespace Gig.Framework.Application;

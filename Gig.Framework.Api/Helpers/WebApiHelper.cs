@@ -1,5 +1,8 @@
-﻿using System.Net.Http.Headers;
+﻿using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
+using System.Threading.Tasks;
 using Gig.Framework.Core;
 using Gig.Framework.Core.Serilizer;
 

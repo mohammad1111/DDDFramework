@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Core.Events;
+﻿using System;
+using System.Threading.Tasks;
+using Gig.Framework.Core.Events;
 using Gig.Framework.Core.Models;
 using Gig.Framework.Core.Security;
 using MassTransit;

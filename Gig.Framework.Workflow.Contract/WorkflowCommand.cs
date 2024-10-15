@@ -1,3 +1,4 @@
+using System;
 using Gig.Framework.Application;
 using Gig.Framework.Core.Exceptions;
 using Gig.Framework.Domain;

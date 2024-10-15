@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Core.DataProviders.Elastic;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Gig.Framework.Core.DataProviders.Elastic;
 
 namespace Gig.Framework.Data.Elastic;
 

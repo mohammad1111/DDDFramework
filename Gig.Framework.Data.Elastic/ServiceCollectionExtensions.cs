@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.DataProviders.Elastic;
+﻿using System;
+using Gig.Framework.Core.DataProviders.Elastic;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 

@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.Caching;
+﻿using System;
+using Gig.Framework.Core.Caching;
 
 namespace Gig.Framework.Bus.Cachekeys;
 

@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.DependencyInjection;
+﻿using System.Threading.Tasks;
+using Gig.Framework.Core.DependencyInjection;
 using Gig.Framework.Core.Security;
 using Gig.Framework.Core.Settings;
 using Gig.Framework.Core.UserContexts;

@@ -1,4 +1,6 @@
-﻿using Automatonymous;
+﻿using System;
+using System.Threading.Tasks;
+using Automatonymous;
 using Gig.Framework.Core.Events;
 using MassTransit;
 

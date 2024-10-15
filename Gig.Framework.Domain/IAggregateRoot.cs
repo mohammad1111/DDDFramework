@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.Events;
+﻿using System.Collections.Generic;
+using Gig.Framework.Core.Events;
 
 namespace Gig.Framework.Domain;
 

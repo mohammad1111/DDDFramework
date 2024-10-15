@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Core.Events;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using Gig.Framework.Core.Events;
 using Gig.Framework.Core.Helper;
 using Gig.Framework.Core.Serilizer;
 using MassTransit;

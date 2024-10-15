@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core;
+﻿using System;
+using Gig.Framework.Core;
 using Gig.Framework.Domain;
 using Microsoft.EntityFrameworkCore;
 

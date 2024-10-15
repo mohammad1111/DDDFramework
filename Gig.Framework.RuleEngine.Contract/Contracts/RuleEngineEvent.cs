@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.Events;
+﻿using System;
+using Gig.Framework.Core.Events;
 using Gig.Framework.RuleEngine.Contract.Models;
 
 namespace Gig.Framework.RuleEngine.Contract.Contracts;

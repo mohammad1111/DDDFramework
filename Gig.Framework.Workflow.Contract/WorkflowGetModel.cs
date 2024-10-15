@@ -1,3 +1,5 @@
+using System;
+
 namespace Gig.Framework.Workflow.Contract;
 
 public abstract class WorkflowGetModel

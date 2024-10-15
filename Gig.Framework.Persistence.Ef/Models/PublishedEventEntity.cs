@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.Persistence.Ef.Models;
+﻿using System;
+
+namespace Gig.Framework.Persistence.Ef.Models;
 
 public class PublishedEventEntity
 {

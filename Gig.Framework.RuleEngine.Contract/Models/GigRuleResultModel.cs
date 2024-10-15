@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Core;
+﻿using System;
+using System.Collections.Generic;
+using Gig.Framework.Core;
 using Gig.Framework.RuleEngine.Contract.Contracts;
 
 namespace Gig.Framework.RuleEngine.Contract.Models;

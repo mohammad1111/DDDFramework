@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Gig.Framework.Core.DataProviders.Elastic;
 using Gig.Framework.Core.Logging;
 using Gig.Framework.Data.Elastic;

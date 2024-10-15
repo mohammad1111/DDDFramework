@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.SignalR;
 using Serilog;
 
 namespace Gig.Framework.Api.RealTimeServices;

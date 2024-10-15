@@ -1,4 +1,8 @@
-﻿namespace Gig.Framework.Domain;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Gig.Framework.Domain;
 
 public abstract class ValueObject<T>
     where T : class

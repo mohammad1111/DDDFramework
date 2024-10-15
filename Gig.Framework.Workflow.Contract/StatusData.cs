@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Gig.Framework.Workflow.Contract;
 
 public class StatusData

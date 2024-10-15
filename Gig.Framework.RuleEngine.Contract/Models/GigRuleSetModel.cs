@@ -1,4 +1,7 @@
-﻿namespace Gig.Framework.RuleEngine.Contract.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace Gig.Framework.RuleEngine.Contract.Models;
 
 public class GigRuleSetModel
 {

@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.Application.ReadModel;
+﻿using System.Threading.Tasks;
+
+namespace Gig.Framework.Application.ReadModel;
 
 public interface IQueryBus
 {

@@ -1,4 +1,6 @@
-﻿using MassTransit;
+﻿using System;
+using System.Threading.Tasks;
+using MassTransit;
 
 namespace Gig.Framework.Bus.GigRoutingSlip;
 

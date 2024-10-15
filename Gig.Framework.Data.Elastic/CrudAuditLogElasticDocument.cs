@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.Data.Elastic;
+﻿using System.Collections.Generic;
+
+namespace Gig.Framework.Data.Elastic;
 
 public class CrudAuditLogElasticDocument : SerilogElasticDocumentBase
 {

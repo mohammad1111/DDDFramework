@@ -1,3 +1,5 @@
+using System;
+
 namespace Gig.Framework.RuleEngine.Contract.Models;
 
 public class RuleMessage

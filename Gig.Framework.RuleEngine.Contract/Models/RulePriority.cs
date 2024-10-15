@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.RuleEngine.Contract.Models;
+﻿using System;
+
+namespace Gig.Framework.RuleEngine.Contract.Models;
 
 public class RulePriority
 {

@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Application.ReadModel;
+﻿using System;
+using Gig.Framework.Application.ReadModel;
 
 namespace Gig.Framework.Workflow.Contract;
 

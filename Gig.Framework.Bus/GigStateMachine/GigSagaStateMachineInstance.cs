@@ -1,4 +1,5 @@
-﻿using Automatonymous;
+﻿using System;
+using Automatonymous;
 using Gig.Framework.Core;
 using Gig.Framework.Core.Events;
 using MassTransit;

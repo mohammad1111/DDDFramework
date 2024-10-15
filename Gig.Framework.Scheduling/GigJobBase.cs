@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core;
+﻿using System.Threading.Tasks;
+using Gig.Framework.Core;
 using Quartz;
 using Serilog;
 

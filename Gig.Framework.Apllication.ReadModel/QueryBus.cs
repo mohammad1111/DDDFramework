@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.DependencyInjection;
+﻿using System.Threading.Tasks;
+using Gig.Framework.Core.DependencyInjection;
 
 namespace Gig.Framework.Application.ReadModel;
 

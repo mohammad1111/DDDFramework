@@ -1,3 +1,5 @@
+using System;
+
 namespace Gig.Framework.Bus.RequestClient;
 
 public class RequestClientEvent

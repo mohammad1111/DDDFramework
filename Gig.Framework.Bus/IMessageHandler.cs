@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.Bus;
+﻿using System.Threading.Tasks;
+
+namespace Gig.Framework.Bus;
 
 public interface IMessageHandler
 {

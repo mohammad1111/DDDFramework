@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Linq;
+using System.Reflection;
 using Gig.Framework.Domain;
 using Microsoft.EntityFrameworkCore;
 using Nest;

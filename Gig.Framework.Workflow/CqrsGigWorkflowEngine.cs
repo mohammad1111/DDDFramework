@@ -1,4 +1,7 @@
-﻿using Gig.Framework.Application;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Gig.Framework.Application;
 using Gig.Framework.Application.ReadModel;
 using Gig.Framework.Core;
 using Gig.Framework.Core.Models;

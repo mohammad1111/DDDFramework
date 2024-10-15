@@ -1,4 +1,8 @@
-﻿using Elasticsearch.Net;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Elasticsearch.Net;
 using Gig.Framework.Core.DataProviders.Elastic;
 using Gig.Framework.Core.Settings;
 using Nest;

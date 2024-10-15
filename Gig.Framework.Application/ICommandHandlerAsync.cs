@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.DataProviders;
+﻿using System.Threading.Tasks;
+using Gig.Framework.Core.DataProviders;
 using Gig.Framework.Core.Events;
 
 namespace Gig.Framework.Application;

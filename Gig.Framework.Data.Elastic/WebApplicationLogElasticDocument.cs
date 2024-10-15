@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Gig.Framework.Data.Elastic;
 
 public class WebApplicationLogElasticDocument : SerilogElasticDocumentBase

@@ -1,4 +1,7 @@
-﻿using Gig.Framework.Core.Events;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Gig.Framework.Core.Events;
 using MassTransit;
 using MassTransit.Courier;
 using MassTransit.Courier.Contracts;

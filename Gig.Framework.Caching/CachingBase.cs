@@ -1,4 +1,6 @@
-﻿using CacheManager.Core;
+﻿using System;
+using System.Threading.Tasks;
+using CacheManager.Core;
 using Gig.Framework.Core.Caching;
 using ExpirationMode = Gig.Framework.Core.Caching.ExpirationMode;
 

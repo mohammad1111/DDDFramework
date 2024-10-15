@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿using System;
+using System.Threading.Tasks;
+using Autofac;
 using Gig.Framework.Core.Events;
 using Gig.Framework.Core.UserContexts;
 using MassTransit;

@@ -1,4 +1,5 @@
-﻿using MassTransit;
+﻿using System.Threading.Tasks;
+using MassTransit;
 
 namespace Gig.Framework.Bus.RequestClient;
 

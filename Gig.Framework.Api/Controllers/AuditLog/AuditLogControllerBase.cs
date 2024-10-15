@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Api.Models;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using Gig.Framework.Api.Models;
 using Gig.Framework.Core.DataProviders.Elastic;
 using Gig.Framework.Data.Elastic;
 using Gig.Framework.ReadModel.Models;

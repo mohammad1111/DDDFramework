@@ -1,4 +1,6 @@
-﻿using Gig.Framework.Core.DependencyInjection;
+﻿using System;
+using System.Collections.Generic;
+using Gig.Framework.Core.DependencyInjection;
 using NRules.Fluent;
 using NRules.Fluent.Dsl;
 

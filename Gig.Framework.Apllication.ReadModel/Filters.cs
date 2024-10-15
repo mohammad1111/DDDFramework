@@ -1,4 +1,6 @@
-﻿namespace Gig.Framework.Application.ReadModel;
+﻿using System.Linq;
+
+namespace Gig.Framework.Application.ReadModel;
 
 public static class Filters
 {

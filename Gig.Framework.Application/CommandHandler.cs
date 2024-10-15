@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.DataProviders;
+﻿using System.Collections.Generic;
+using Gig.Framework.Core.DataProviders;
 using Gig.Framework.Core.Events;
 
 namespace Gig.Framework.Application;

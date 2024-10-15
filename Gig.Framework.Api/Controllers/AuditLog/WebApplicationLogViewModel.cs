@@ -1,3 +1,4 @@
+using System;
 using Gig.Framework.Core.DataProviders.Elastic;
 using Gig.Framework.Data.Elastic;
 using Gig.Framework.ReadModel.Models;

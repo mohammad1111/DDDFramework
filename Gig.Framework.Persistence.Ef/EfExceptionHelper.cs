@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using System;
+using Microsoft.Data.SqlClient;
 
 namespace Gig.Framework.Persistence.Ef;
 

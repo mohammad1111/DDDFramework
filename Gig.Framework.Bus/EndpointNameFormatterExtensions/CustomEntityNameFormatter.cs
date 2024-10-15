@@ -1,4 +1,6 @@
-﻿using MassTransit;
+﻿using System;
+using System.Linq;
+using MassTransit;
 using MassTransit.Futures.Contracts;
 using MassTransit.Internals;
 using MassTransit.Topology;

@@ -1,4 +1,5 @@
-﻿using Gig.Framework.Core.Models;
+﻿using System.Threading.Tasks;
+using Gig.Framework.Core.Models;
 
 namespace Gig.Framework.Application;
 

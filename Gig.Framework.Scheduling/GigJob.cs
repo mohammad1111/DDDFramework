@@ -1,4 +1,5 @@
-﻿using Quartz;
+﻿using System.Threading.Tasks;
+using Quartz;
 
 namespace Gig.Framework.Scheduling;
 

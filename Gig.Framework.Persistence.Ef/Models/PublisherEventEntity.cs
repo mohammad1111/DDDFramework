@@ -1,3 +1,5 @@
+using System;
+
 namespace Gig.Framework.Persistence.Ef.Models;
 
 public class PublisherEventEntity
