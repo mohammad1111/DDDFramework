@@ -1,8 +1,0 @@
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\bin\Debug\netstandard2.0\Gig.Framework.RuleEngin.deps.json
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\bin\Debug\netstandard2.0\Gig.Framework.RuleEngin.dll
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\obj\Debug\netstandard2.0\Gig.Framework.RuleEngin.AssemblyInfoInputs.cache
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\obj\Debug\netstandard2.0\Gig.Framework.RuleEngin.AssemblyInfo.cs
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\bin\Debug\netstandard2.0\Gig.Framework.RuleEngin.pdb
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\obj\Debug\netstandard2.0\Gig.Framework.RuleEngin.csprojAssemblyReference.cache
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\obj\Debug\netstandard2.0\Gig.Framework.RuleEngin.dll
-C:\Users\bikdeli.mohammad\source\repos\Gig.Framework\Gig.Framework.RuleEngin\obj\Debug\netstandard2.0\Gig.Framework.RuleEngin.pdb
