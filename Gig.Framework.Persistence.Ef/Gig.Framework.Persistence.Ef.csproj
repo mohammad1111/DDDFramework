@@ -2,21 +2,23 @@
 
     <PropertyGroup>
 
-        <Version>1.0.0.1</Version>
+         <Version>2.7.0.95</Version>
         <AssemblyVersion>1.0.0.1</AssemblyVersion>
         <FileVersion>1.0.0.1</FileVersion>
         <LangVersion>latest</LangVersion>
         <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>net8.0</TargetFramework>
+
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="EFCore.BulkExtensions" Version="8.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="6.0.0" />
-        <PackageReference Include="Quartz" Version="3.2.4" />
+<!--        <PackageReference Include="EFCore.BulkExtensions" Version="8.1.1" />-->
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="8.0.10" />
+        <PackageReference Include="Quartz" Version="3.13.0" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <Version>1.0.0.1</Version>
+         <Version>2.7.0.95</Version>
         <AssemblyVersion>1.0.0.1</AssemblyVersion>
         <FileVersion>1.0.0.1</FileVersion>
 
         <LangVersion>latest</LangVersion>
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -15,7 +17,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Quartz" Version="3.2.4" />
+        <PackageReference Include="Quartz" Version="3.13.0" />
     </ItemGroup>
 
     <ItemGroup>

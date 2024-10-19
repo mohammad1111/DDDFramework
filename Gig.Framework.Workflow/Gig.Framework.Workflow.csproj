@@ -2,12 +2,13 @@
 
     <PropertyGroup>
 
-        <Version>1.0.0.1</Version>
+         <Version>2.7.0.95</Version>
         <AssemblyVersion>1.0.0.1</AssemblyVersion>
         <FileVersion>1.0.0.1</FileVersion>
         <LangVersion>latest</LangVersion>
         <PackageOutputPath>$(ProjectDir)..\nuget-output\</PackageOutputPath>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
 
@@ -18,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="NewId" Version="3.0.3" />
+        <PackageReference Include="NewId" Version="4.0.1" />
     </ItemGroup>
 
 </Project>
