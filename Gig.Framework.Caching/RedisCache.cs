@@ -20,10 +20,9 @@ public class RedisCache : CachingBase, IDistributeCacheManager
         builder.WithRedisConfiguration("redis", config =>
         {
             config
-                .WithAllowAdmin()
+              //  .WithAllowAdmin()
                 .WithDatabase(0)
-                .WithConnectionTimeout(5000)
-                .EnableKeyspaceEvents()
+                .WithConnectionTimeout(1000)
                 .WithEndpoint(setting.RedisConnection, int.Parse(setting.RedisPort))
                 .WithPassword(setting.RedisPassword);
         });
