@@ -2,3 +2,13 @@ bin
 obj
 config
 Debug
+/UserManagement.sln.DotSettings.user
+/.vs/VSWorkspaceState.json
+/.vs/UserManagement/FileContentIndex
+/.vs/UserManagement/v17
+/nuget-output
+/.vs/ProjectEvaluation
+/.vs/Gig.Framework/v17
+/.vs/Gig.Framework/FileContentIndex
+/.vs/DDDFramework/v17
+*.v2
