@@ -90,6 +90,11 @@ public abstract class RepositoryBase<TEntity> : IRepository<TEntity> where TEnti
         await _gigDbContext.AddRangeAsync(entities);
     }
 
+    public async Task UpdateAsync(TEntity entity)
+    {
+        _gigDbContext.Update(entity);
+    }
+
     public async Task RemoveAsync<T>(long id)
     {
         var entity = await GetByIdAsync(id);
